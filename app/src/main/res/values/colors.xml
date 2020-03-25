@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#418EFF</color>
+    <color name="colorPrimaryDark">#418EFF</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <!--白色背景透明度100%-->
+    <color name="shape_bg_color1">#FFFFFFFF</color>
+    <!--白色背景透明度80%-->
+    <color name="shape_bg_color2">#ccFFFFFF</color>
+    <!--白色背景透明度95%-->
+    <color name="shape_bg_color3">#f2FFFFFF</color>
+    <!--白色背景透明度80.55%-->
+    <color name="shape_bg_color4">#cdFFFFFF</color>
+    <!--白色背景透明度79.51%-->
+    <color name="shape_bg_color5">#cbFFFFFF</color>
+    <!--白色背景透明度35%-->
+    <color name="shape_bg_color6">#59FFFFFF</color>
+    <!--白色背景透明度29.59%-->
+    <color name="shape_bg_color7">#4bFFFFFF</color>
+
+</resources>

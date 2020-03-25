@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_bg_white8"
+        app:layout_constraintEnd_toStartOf="@+id/horizontal_middle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avatar5" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/shape_bg_white7"
+        app:layout_constraintBottom_toTopOf="@+id/avatar2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/horizontal_middle" />
+
+    <RelativeLayout
+        android:id="@+id/avatar1"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/shape_bg_white2"
+        app:layout_constraintEnd_toStartOf="@+id/horizontal_middle"
+        app:layout_constraintTop_toBottomOf="@+id/avatar5">
+
+        <com.gavin.gyroscopesensor.widget.CircleImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@mipmap/p4"
+            app:border_width="2dp"
+            app:border_color="@color/shape_bg_color1"
+            android:layout_centerInParent="true" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/avatar2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/shape_bg_white2"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@+id/horizontal_middle"
+        app:layout_constraintTop_toBottomOf="@+id/avatar5">
+
+        <com.gavin.gyroscopesensor.widget.CircleImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@mipmap/p0"
+            app:border_width="2dp"
+            app:border_color="@color/shape_bg_color1"
+            android:layout_centerInParent="true" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/avatar6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="94dp"
+        android:background="@drawable/shape_bg_white6"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/avatar3"
+        app:layout_constraintStart_toEndOf="@+id/horizontal_middle">
+
+        <com.gavin.gyroscopesensor.widget.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/p2"
+            app:border_width="2dp"
+            app:border_color="@color/shape_bg_color1"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/horizontal_middle"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/avatar5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/shape_bg_white5"
+        app:layout_constraintBottom_toBottomOf="@+id/avatar3"
+        app:layout_constraintEnd_toStartOf="@+id/horizontal_middle">
+
+        <com.gavin.gyroscopesensor.widget.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/p5"
+            app:border_width="2dp"
+            app:border_color="@color/shape_bg_color1"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginRight="105dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/shape_bg_white3"
+        app:layout_constraintBottom_toTopOf="@+id/avatar4"
+        app:layout_constraintEnd_toEndOf="@+id/avatar5" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="74dp"
+        android:background="@drawable/shape_bg_white4"
+        app:layout_constraintBottom_toTopOf="@+id/avatar2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/avatar4"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/shape_bg_white2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.gavin.gyroscopesensor.widget.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/p3"
+            app:border_width="2dp"
+            app:border_color="@color/shape_bg_color1"
+            android:layout_centerInParent="true" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/avatar3"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/shape_bg_white1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.gavin.gyroscopesensor.widget.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/p1"
+            app:border_width="2dp"
+            app:border_color="@color/shape_bg_color1"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
